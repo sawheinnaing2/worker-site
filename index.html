@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="my">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>အလုပ်သမား စာရင်း</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<h2 style="text-align:center;">အလုပ်သမား စာရင်း</h2>
+
+<div class="worker" onclick="openWorker(
+'Mg Aung',
+'လက်သမား',
+'500 ဘတ် / ရက်',
+'Jan 1 – Jan 15',
+'OT 10 နာရီ',
+'7,500 ဘတ်'
+)">
+  <img src="https://via.placeholder.com/100">
+  <p>Mg Aung</p>
+</div>
+
+<div id="popup">
+  <h3 id="wname"></h3>
+  <p id="wjob"></p>
+  <p id="wage"></p>
+  <p id="wday"></p>
+  <p id="wot"></p>
+  <h4 id="total"></h4>
+  <button onclick="closeWorker()">ပိတ်မယ်</button>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
