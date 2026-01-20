@@ -31,3 +31,9 @@ body {
 #popup.show {
   bottom: 0;
 }
+.container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 12px;
+  padding: 12px;
+}
