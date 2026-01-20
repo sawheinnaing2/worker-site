@@ -1,0 +1,33 @@
+body {
+  font-family: sans-serif;
+  background: #f2f2f2;
+}
+
+.worker {
+  background: white;
+  width: 150px;
+  margin: 20px auto;
+  padding: 10px;
+  text-align: center;
+  border-radius: 12px;
+}
+
+.worker img {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+}
+
+#popup {
+  position: fixed;
+  bottom: -100%;
+  left: 0;
+  width: 100%;
+  background: white;
+  padding: 20px;
+  transition: 0.3s;
+}
+
+#popup.show {
+  bottom: 0;
+}
